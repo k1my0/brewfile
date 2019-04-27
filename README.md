@@ -1,8 +1,4 @@
 <div align="center">
-  <a href="https://github.com/hy000jin/brewfile" title="Brewfile">
-    <img alt="hy000jin's brewfile" src="https://raw.githubusercontent.com/hy000jin/i/master/brewfile/icon.png" width="128px" />
-  </a>
-  <br />
   <h1>Brewfile</h1>
 </div>
 
