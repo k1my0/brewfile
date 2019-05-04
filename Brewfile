@@ -69,9 +69,12 @@ tap 'buo/cask-upgrade'
   brew 'mysql'
 ### }}}
 
-### Text Editor {{{
-  ## Sublime Text
+### Code Editor & IDE {{{
+  ## Editor: Sublime Text
   cask 'sublime-text'
+
+  ## Editor: Visual Studio
+  cask 'visual-studio-code'
 ### }}}
 
 ### Virtualization {{{
