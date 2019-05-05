@@ -94,3 +94,39 @@ tap 'buo/cask-upgrade'
   # Cross-platform make
   brew 'cmake'
 ### }}}
+
+
+### Programming Language {{{
+  ## Python
+  # Python3
+  brew 'python'
+  # Python2
+  brew 'python@2'
+  # Python dependency management tool
+  brew 'pipenv'
+
+  ## Java
+  cask 'java'
+
+  ## R
+  # r installation
+  # Using coatless professor method for OpenMP
+  # https://github.com/sethrfore/homebrew-r-srf
+  # reference : https://luispuerto.net/blog/2018/05/11/installing-r-with-homebrew-with-all-the-capabilities/
+  # https://discourse.brew.sh/t/r-installs-on-high-sierra-without-tcl-tk-support/1190/17
+  
+  tap 'sethrfore/homebrew-r-srf'
+
+  # to develop a version of the X.org x window system that runs on os X
+  cask 'xquartz'
+  
+  # Need Command: sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
+ 
+  # cairo: a 2d graphics library with support for multiple output devices
+  # brew 'sethrfore/r-srf/cairo'
+
+  brew 'sethrfore/r-srf/r', args: ['with-libtiff', 'with-openblas', 'with-java', 'with-pango']
+
+  # r-stutio
+  cask 'rstudio'
+### }}}
