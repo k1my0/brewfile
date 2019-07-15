@@ -60,7 +60,6 @@ tap 'buo/cask-upgrade'
   brew 'fish'
 ### }}}
 
-
 ### Database {{{
   ## SQL
   # SQLite
@@ -75,6 +74,12 @@ tap 'buo/cask-upgrade'
 
   ## Editor: Visual Studio
   cask 'visual-studio-code'
+
+  ## Editor: Typora
+  #  cask 'typora'
+
+  ## Editor: Boostnote
+  cask 'boostnote' 
 ### }}}
 
 ### Virtualization {{{
@@ -93,6 +98,8 @@ tap 'buo/cask-upgrade'
   brew 'automake'
   # Cross-platform make
   brew 'cmake'
+  # Trello
+  # cask 'trello-x'
 ### }}}
 
 
