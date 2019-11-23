@@ -17,7 +17,7 @@
 
 <br />
 
-[**This brewfile**](https://github.com/hy000jin/brewfile) is written by [hy000jin](https://github.com/hy000jin/) to easily set up the development environment to macOS.
+[**This brewfile**](https://github.com/k1my0/brewfile) is written by [k1my0](https://github.com/k1my0/) to easily set up the development environment to macOS.
 
 - If you want to override my configuration or add more configuration, just edit `Brewfile`.
 
@@ -25,7 +25,7 @@
 ## Usage
 
 ```bash
-$ git clone https://github.com/hy000jin/brewfile
+$ git clone https://github.com/k1my0/brewfile
 $ cd brewfile
 # Install all packages in `Brewfile`
 $ brew bundle
@@ -34,11 +34,11 @@ $ brew bundle
 
 ## Self Promotion
 
-Like brewfile? Follow the repository on [GitHub](https://github.com/hy000jin/brewfile). And if you're feeling especially charitable, follow [hy000jin](https://hy000jin.com) on [GitHub](https://github.com/hy000jin).
+Like brewfile? Follow the repository on [GitHub](https://github.com/k1my0/brewfile). And if you're feeling especially charitable, follow [hy000jin](https://hy000jin.com) on [GitHub](https://github.com/hy000jin).
 
 
 ## License
 
-Provided under the terms of the [MIT License](https://github.com/hy000jin/brewfile/blob/master/LICENSE).
+Provided under the terms of the [MIT License](https://github.com/k1my0/brewfile/blob/master/LICENSE).
 
 Copyright © 2019, [Hyojin Kim](http://hyooojin.kim).
