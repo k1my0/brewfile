@@ -45,6 +45,10 @@ tap 'buo/cask-upgrade'
   ## Terminal Emulator
   # Terminal Emulator for macOS
   cask 'iterm2'
+  # https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/Snazzy.itermcolors
+  # UNIX shell (command interpreter)
+  brew 'zsh'
+  brew 'zsh-completions'
 
   ## Terminal Multiplexer
   # Terminal multiplexer with VT100/ANSI terminal emulation
@@ -53,11 +57,24 @@ tap 'buo/cask-upgrade'
   brew 'tmux'
   # Reattach process (e.g., tmux) to background
   brew 'reattach-to-user-namespace'
+  
+
+  # Ambitious Vim-fork focused on extensibility and agility
+  brew 'neovim'
+  tap 'homebrew/cask-fonts'
+  cask 'font-hack-nerd-font'
+  
 
   ## Shell: Fish
   # User-friendly command-line shell for UNIX-like operating systems
   # INFO: Need to add `/user/local/bin/fish` to `/etc/shells`
   brew 'fish'
+
+  # Command-line fuzzy finder written in Go
+  brew 'fzf'
+
+  # CLI tool for quick access to files and directories
+  brew 'fasd'
 ### }}}
 
 ### Database {{{
@@ -100,6 +117,10 @@ tap 'buo/cask-upgrade'
   brew 'cmake'
   # Trello
   # cask 'trello-x'
+  #  Git
+  brew 'git'
+  brew 'git-flow'
+  brew 'git-lfs'
 ### }}}
 
 
@@ -116,24 +137,15 @@ tap 'buo/cask-upgrade'
   cask 'java'
 
   ## R
-  # r installation
-  # Using coatless professor method for OpenMP
-  # https://github.com/sethrfore/homebrew-r-srf
-  # reference : https://luispuerto.net/blog/2018/05/11/installing-r-with-homebrew-with-all-the-capabilities/
-  # https://discourse.brew.sh/t/r-installs-on-high-sierra-without-tcl-tk-support/1190/17
-  
-  tap 'sethrfore/homebrew-r-srf'
-
-  # to develop a version of the X.org x window system that runs on os X
-  cask 'xquartz'
-  
-  # Need Command: sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
- 
-  # cairo: a 2d graphics library with support for multiple output devices
-  # brew 'sethrfore/r-srf/cairo'
-
-  brew 'sethrfore/r-srf/r', args: ['with-libtiff', 'with-openblas', 'with-java', 'with-pango']
-
+  cask 'r'
   # r-stutio
   cask 'rstudio'
+
+  ## nodejs
+  brew 'nodejs'
+
+  ## ruby
+  brew 'ruby'
+  brew 'rbenv'
+  brew 'ruby-build'
 ### }}}
