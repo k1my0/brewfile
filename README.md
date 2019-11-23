@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
   <h1>Brewfile</h1>
 </div>
@@ -42,3 +43,7 @@ Like brewfile? Follow the repository on [GitHub](https://github.com/k1my0/brewfi
 Provided under the terms of the [MIT License](https://github.com/k1my0/brewfile/blob/master/LICENSE).
 
 Copyright © 2019, [Hyojin Kim](http://hyooojin.kim).
+=======
+# brewfile
+🍎 Brewfile to install softwares in macOS for engineers
+>>>>>>> ae6e72cf134c61787e5c8b1e01450736f2d2fa60
