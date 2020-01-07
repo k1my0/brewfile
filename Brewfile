@@ -75,6 +75,14 @@ tap 'buo/cask-upgrade'
 
   # CLI tool for quick access to files and directories
   brew 'fasd'
+
+  # docker
+  brew 'docker'
+
+  # nmap
+  brew 'nmap'
+  # fping
+  brew 'fping'
 ### }}}
 
 ### Database {{{
