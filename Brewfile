@@ -83,6 +83,8 @@ tap 'buo/cask-upgrade'
   brew 'nmap'
   # fping
   brew 'fping'
+  # crunch
+  brew 'crunch'
 ### }}}
 
 ### Database {{{
