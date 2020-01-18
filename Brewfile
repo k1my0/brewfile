@@ -137,7 +137,7 @@ tap 'buo/cask-upgrade'
 ### Programming Language {{{
   ## Python
   # Python3
-  brew 'python'
+  brew 'python3'
   # Python2
   brew 'python@2'
   # Python dependency management tool
